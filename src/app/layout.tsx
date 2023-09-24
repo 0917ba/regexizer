@@ -1,5 +1,5 @@
 import './globals.css';
-import { noto_sans_kr } from './fonts';
+import { noto_sans_kr } from '../lib/fonts';
 
 export default function RootLayout({
   children,

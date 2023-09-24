@@ -1,5 +1,5 @@
 import { TextCursorInput } from 'lucide-react';
-import { black_han_sans, archivo, jua, noto_sans_kr } from './fonts';
+import { black_han_sans, archivo, jua, noto_sans_kr } from '../lib/fonts';
 import Link from 'next/link';
 import CoolButton from '@/components/ui/CoolButton';
 import CoolLink from '@/components/ui/CoolLink';
@@ -36,7 +36,7 @@ export default function Page() {
         </div>
         <p className="mt-8 mx-auto text-center max-w-xl text-slate-400 font-medium break-keep">
           Regexizer는 드래그&드롭 기반 정규식 생성 도구입니다. Regexizer를
-          사용하면 간단한 조작만으로 여러 프로그래밍 언어 문법에 맞는 정규식을
+          사용하면 간단한 조작만으로 다양한 프로그래밍 언어 문법에 맞는 정규식을
           작성할 수 있습니다.
         </p>
       </div>
