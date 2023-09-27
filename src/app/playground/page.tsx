@@ -6,10 +6,7 @@ import { noto_sans_kr } from '@/lib/fonts';
 
 export default function Page() {
   return (
-    <div className="pt-8 pb-12 lg:pb-8 px-8 flex flex-col h-full">
-      <div className="mb-4">
-        <NavBar />
-      </div>
+    <div className="pt-4 pb-12 lg:pb-8 px-8 flex flex-col h-full">
       <div className="lg:px-24 px-10 3xl:py-8 py-6 flex flex-col 3xl:gap-12 gap-8 h-full items-center">
         <h1
           className={`text-2xl font-medium text-center text-white ${noto_sans_kr.className}`}

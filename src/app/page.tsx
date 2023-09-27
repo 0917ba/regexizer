@@ -1,14 +1,9 @@
-import { TextCursorInput } from 'lucide-react';
-import { black_han_sans, archivo, jua, noto_sans_kr } from '../lib/fonts';
-import Link from 'next/link';
-import CoolButton from '@/components/ui/CoolButton';
+import { black_han_sans } from '../lib/fonts';
 import CoolLink from '@/components/ui/CoolLink';
-import NavBar from '@/components/NavBar';
 
 export default function Page() {
   return (
-    <div className="px-8 pt-8">
-      <NavBar />
+    <div>
       <div className="pt-24 md:pt-28 mx-auto 2xl:max-w-6xl max-w-5xl">
         <div className="text-white text-6xl 2xl:text-7xl text-center break-keep">
           <h1 className={black_han_sans.className}>
