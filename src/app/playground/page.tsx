@@ -11,7 +11,7 @@ export default function Page() {
         <h1
           className={`text-2xl font-medium text-center text-white ${noto_sans_kr.className}`}
         >
-          블럭을 선택하고 드래그하세요.
+          블럭을 선택하고 박스 안으로 드래그하세요.
         </h1>
         <div className="h-12 flex-none max-w-6xl py-0.5 w-full bg-sky-50/20 rounded-lg">
           <div className="flex justify-center w-full h-full gap-6">
