@@ -9,7 +9,7 @@ export default function Page() {
     <div className="pt-4 pb-12 lg:pb-8 px-8 flex flex-col h-full">
       <div className="lg:px-24 px-10 3xl:py-8 py-6 flex flex-col 3xl:gap-12 gap-8 h-full items-center">
         <h1
-          className={`text-2xl font-medium text-center text-white ${noto_sans_kr.className}`}
+          className={`text-xl font-medium text-center text-white ${noto_sans_kr.className}`}
         >
           블럭을 선택하고 박스 안으로 드래그하세요.
         </h1>

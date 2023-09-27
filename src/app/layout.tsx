@@ -11,7 +11,7 @@ export default function RootLayout({
     <html lang="en" className={`w-full h-full ${noto_sans_kr.className}`}>
       <body className="w-full h-full scroll overflow-hidden">
         <div className="absolute left-0 top-0 z-50 w-full h-full">
-          <div className="px-8 pt-8 w-full h-full">
+          <div className="px-6 pt-6 w-full h-full">
             <NavBar />
             {children}
           </div>
