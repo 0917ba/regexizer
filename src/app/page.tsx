@@ -3,30 +3,11 @@ import { black_han_sans, archivo, jua, noto_sans_kr } from '../lib/fonts';
 import Link from 'next/link';
 import CoolButton from '@/components/ui/CoolButton';
 import CoolLink from '@/components/ui/CoolLink';
-
-function NavBar() {
-  return (
-    <div className="w-full pt-8 flex justify-between">
-      <div className="flex">
-        <TextCursorInput color="#CC3366" strokeWidth={2.5} size={32} />
-        <div className="text-white font-semibold text-2xl mx-1">
-          <div className={archivo.className}>Regexizer</div>
-        </div>
-      </div>
-      <div className={`text-white font-medium ${archivo.className}`}>
-        <div className="flex justify-center gap-4 items-center h-full">
-          <div>Docs</div>
-          <div>Showcase</div>
-          <div>GitHub</div>
-        </div>
-      </div>
-    </div>
-  );
-}
+import NavBar from '@/components/NavBar';
 
 export default function Page() {
   return (
-    <div className="px-8">
+    <div className="px-8 pt-8">
       <NavBar />
       <div className="pt-24 md:pt-28 mx-auto 2xl:max-w-6xl max-w-5xl">
         <div className="text-white text-6xl 2xl:text-7xl text-center break-keep">
