@@ -8,9 +8,9 @@ interface Block_Pink_Props {
 
 export default function Block_Pink({ children }: Block_Pink_Props) {
   return (
-    <div className="h-full w-fit flex justify-center items-center px-4 rounded-lg bg-pink-600">
+    <div className="h-full w-fit flex justify-center items-center md:px-4 px-3 rounded-lg bg-pink-600">
       <div
-        className={`text-white font-bold text-2xl w-fit h-fit ${noto_serif.className}`}
+        className={`text-white font-bold md:text-2xl text-xl w-fit h-fit ${noto_serif.className}`}
       >
         {children}
       </div>

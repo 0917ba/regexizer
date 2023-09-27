@@ -10,7 +10,7 @@ export default function Block_Blue({ children }: Block_Blue_Props) {
   return (
     <div className="h-full w-fit flex justify-center items-center px-4 rounded-lg bg-blue-600">
       <div
-        className={`text-white font-bold text-2xl w-fit h-fit ${noto_serif.className}`}
+        className={`text-white font-bold md:text-2xl text-xl w-fit h-fit ${noto_serif.className}`}
       >
         {children}
       </div>
